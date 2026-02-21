@@ -22,8 +22,8 @@ export default function Sidebar({ activeTab, setActiveTab, onLoginClick }: Sideb
   return (
     <div className="flex flex-col h-full p-6">
       <div className="mb-10">
-        <h1 className="text-2xl font-black text-cyan-600 tracking-tighter italic">REMIX</h1>
-        <p className="text-[10px] text-gray-400 font-bold uppercase tracking-widest mt-1">My Mini-Home</p>
+        <h1 className="text-2xl font-black text-cyan-600 tracking-tighter italic">김규리의 홈피</h1>
+        <p className="text-[10px] text-gray-400 font-bold uppercase tracking-widest mt-1">KIM GYURI'S HOME</p>
       </div>
 
       <nav className="flex-1 space-y-2">
