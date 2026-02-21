@@ -35,15 +35,15 @@ export default function FavoritesPage() {
   ];
 
   const characters = [
-    { title: '카게야마 토비오', img: 'https://i.postimg.cc/XJwVpLRZ/2.webp', comment: '결혼하자' },
+    { title: '카게야마 토비오', img: 'https://i.postimg.cc/K8gDt6QV/1a.webp', comment: '결혼하자' },
     { title: '체인소 덴지', img: 'https://i.postimg.cc/QN41qHpy/2.webp', comment: '체인소사마 사이쿄!' },
     { title: '시로가네 미유키', img: 'https://i.postimg.cc/2yKWjKkn/3.webp', comment: '다크서클금발벽안' },
     { title: '사이하라 슈이치', img: 'https://i.postimg.cc/sxNWfNjh/4.webp', comment: '소레와치가우요' },
     { title: '엘', img: 'https://i.postimg.cc/76gxf9F7/3.webp', comment: '야가미쿤~' },
-    { title: '다나카 간다무', img: 'https://i.postimg.cc/63d9yckW/1.webp', comment: '두근두근사육일지' },
+    { title: '다나카 간다무', img: 'https://i.postimg.cc/VNQBgKHK/1b.webp', comment: '두근두근사육일지' },
     { title: '파워', img: 'https://i.postimg.cc/kGpSMpJN/8.webp', comment: '2종보통' },
-    { title: '이루마 미우', img: 'https://i.postimg.cc/W3M2h8Bq/4.webp', comment: '토끼모양사과' },
-    { title: '마이조노 사야카', img: 'https://i.postimg.cc/DZq2869J/5.webp', comment: '초고교급 쿨뷰티미녀' },
+    { title: '이루마 미우', img: 'https://i.postimg.cc/Dzkd6xYp/1d.webp', comment: '토끼모양사과' },
+    { title: '마이조노 사야카', img: 'https://i.postimg.cc/0NRdnVHc/1c.webp', comment: '초고교급 쿨뷰티미녀' },
   ];
 
   const Section = ({ title, icon: Icon, items }: { title: string, icon: any, items: any[] }) => (

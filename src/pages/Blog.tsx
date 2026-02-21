@@ -415,11 +415,10 @@ export default function BlogPage() {
   const formatDate = (timestamp: any) => {
     if (!timestamp) return '';
     const date = timestamp.toDate();
-    return new Intl.DateTimeFormat('ko-KR', {
-      year: 'numeric',
-      month: 'long',
-      day: 'numeric'
-    }).format(date);
+    const year = date.getFullYear().toString().slice(-2);
+    const month = (date.getMonth() + 1).toString().padStart(2, '0');
+    const day = date.getDate().toString().padStart(2, '0');
+    return `${year}.${month}.${day}`;
   };
 
   // Detail View
@@ -636,7 +635,7 @@ export default function BlogPage() {
 \\###### 6 → <span style="font-size: 0.5625rem; font-weight: 700;">작은 글씨 2</span>`} />
 
                       <MarkdownHelpSection title="[강조]" content={`\\*\\*굵게\\*\\* → **굵은 글씨**
-\\*기울임\\* → *기울어진 글씨*
+\\*연하게\\* → <span style="opacity: 0.5;">연한 글씨</span>
 \\~\\~취소선\\~\\~ → ~~취소선~~`} />
 
                       <MarkdownHelpSection title="[링크 및 이미지]" content={`**링크 달기**
@@ -653,14 +652,16 @@ export default function BlogPage() {
 \\<span style="color:pink"\\>분홍\\</span\\> → <span style="color:pink">분홍</span>
 \\<span style="color:HEX코드"\\>내용\\</span\\>`} />
 
-                      <MarkdownHelpSection title="[인용 및 코드]" content={`\\> 인용 → 
+                      <MarkdownHelpSection title="[인용 및 코드]" content={`\\> 인용
+↓
+
 > 인용문
 
-인라인 코드 → \`코드\`
+&nbsp;&nbsp;\\\`인라인 코드\\\` → \`코드\`
 
-\\-\\-\\- → 구분선
+&nbsp;&nbsp;\\-\\-\\- → 구분선
 
-**코드블럭**
+&nbsp;&nbsp;**코드블럭** ↓
 \\\`\\\`\\\`
 내용
 \\\`\\\`\\\` `} />
@@ -787,18 +788,18 @@ export default function BlogPage() {
                 )}
               </div>
               
-              <div className="flex items-center gap-3 flex-shrink-0">
+              <div className="flex items-center gap-1.5 flex-shrink-0 ml-2">
                 {isAdmin && (
-                  <div className="flex items-center gap-1 text-xs text-gray-400 mr-2">
-                    <Eye size={12} />
+                  <div className="flex items-center gap-0.5 text-[10px] text-gray-400">
+                    <Eye size={11} />
                     <span>{post.views || 0}</span>
                   </div>
                 )}
-                <div className="flex items-center gap-1 text-xs text-gray-400 mr-2">
-                  <Heart size={12} className={likedPosts.includes(post.id) ? "fill-red-400 text-red-400" : ""} />
+                <div className="flex items-center gap-0.5 text-[10px] text-gray-400">
+                  <Heart size={11} className={likedPosts.includes(post.id) ? "fill-red-400 text-red-400" : ""} />
                   <span>{post.likes || 0}</span>
                 </div>
-                <span className="text-xs text-gray-400 font-mono">
+                <span className="text-[10px] text-gray-400 font-mono">
                   {formatDate(post.createdAt)}
                 </span>
                 {isAdmin && (
