@@ -628,12 +628,12 @@ export default function BlogPage() {
                     className="overflow-hidden rounded-xl border border-gray-200 bg-gray-50"
                   >
                     <div className="flex flex-col">
-                      <MarkdownHelpSection title="[글씨 크기]" content={`\\# 1 → # 큰 글씨 1
-\\## 2 → ## 큰 글씨 2
-\\### 3 → ## 큰 글씨 3
-\\#### 4 → ### 큰 글씨 4
-\\##### 5 → ##### 작은 글씨 1
-\\###### 6 → ###### 작은 글씨 2`} />
+                      <MarkdownHelpSection title="[글씨 크기]" content={`\\# 1 → <span style="font-size: 1.125rem; font-weight: 700;">큰 글씨 1</span>
+\\## 2 → <span style="font-size: 1rem; font-weight: 700;">큰 글씨 2</span>
+\\### 3 → <span style="font-size: 0.875rem; font-weight: 700;">큰 글씨 3</span>
+\\#### 4 → <span style="font-size: 0.75rem; font-weight: 700;">큰 글씨 4</span>
+\\##### 5 → <span style="font-size: 0.625rem; font-weight: 700;">작은 글씨 1</span>
+\\###### 6 → <span style="font-size: 0.5625rem; font-weight: 700;">작은 글씨 2</span>`} />
 
                       <MarkdownHelpSection title="[강조]" content={`\\*\\*굵게\\*\\* → **굵은 글씨**
 \\*기울임\\* → *기울어진 글씨*
