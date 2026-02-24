@@ -23,7 +23,7 @@ export default function HomePage() {
         <p className="text-sm text-gray-500 mt-1 mb-4">@kimguuri</p>
         
         <div className="bg-gray-50 rounded-xl p-3 w-full text-sm text-gray-600 italic border border-gray-100 mb-6">
-          "옥정동 로드마스터"
+          "옥정동로드마스터"
         </div>
 
         {/* Profile Details */}
