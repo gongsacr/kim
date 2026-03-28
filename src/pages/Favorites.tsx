@@ -38,7 +38,6 @@ export default function FavoritesPage() {
 
   const characters = [
     { title: '다나카 간다무', img: 'https://i.postimg.cc/1zYG1cyj/haem1.webp', comment: '우리 서로이웃해요~' },
-    { title: '마이조노 사야카', img: 'https://i.postimg.cc/0NRdnVHc/1c.webp', comment: 'my마이조노' },
     { title: '백인호', img: 'https://i.postimg.cc/GmNP81NC/b3-(1).webp', comment: '난너밖에없어...' },
     { title: '사이하라 슈이치', img: 'https://i.postimg.cc/sxNWfNjh/4.webp', comment: '이런 사이하라랑 시간을 보낼까?' },
     { title: '세라', img: 'https://i.postimg.cc/GpMMVpxy/se1.webp', comment: '천사...' },
@@ -55,9 +54,9 @@ export default function FavoritesPage() {
   const games = [
     { title: '고군분투', img: 'https://i.postimg.cc/c4DkhC6N/고3_1.webp', comment: '손에 땀이;' },
     { title: '단간론파', img: 'https://i.postimg.cc/kgLmjfD7/dan4.webp', comment: '소레와 치가우조' },
-    { title: '루미큐브', img: 'https://i.postimg.cc/bdXLc09Y/lu1.webp', comment: '없으면넘겨잇' },
     { title: '마인크래프트', img: 'https://i.postimg.cc/mZqFZgf9/마.webp', comment: '아 멀미나' },
     { title: '뱀파이어 서바이벌', img: 'https://i.postimg.cc/MKy9x5YB/baem.webp', comment: '뱀서매직' },
+    { title: '스타듀밸리', img: 'https://i.postimg.cc/3JFJpMB5/dyu1.webp', comment: '파스닙 심자' },
     { title: '좀비고', img: 'https://i.postimg.cc/xdS0f6QH/nam1.webp', comment: '즐겜해요ㅎㅎ' },
   ];
 
