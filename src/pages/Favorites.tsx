@@ -27,6 +27,7 @@ export default function FavoritesPage() {
     { title: '초속 5센티미터', img: 'https://i.postimg.cc/c19wcrQ2/a.webp', comment: 'こんなとこにいる\nはずもないのに' },
     { title: '카구야님은\n고백받고 싶어', img: 'https://i.postimg.cc/htxmgsHt/카구야님.webp', comment: '후지와라 치카;;' },
     { title: '캐릭캐릭 체인지', img: 'https://i.postimg.cc/2SvWmGPL/캐릭캐릭.webp', comment: '아무토마가 진짜다' },
+    { title: '케이온', img: 'https://i.postimg.cc/6qkD8Q7t/ke.webp', comment: '응땅응땅' },
     { title: '하이큐', img: 'https://i.postimg.cc/3wTvwpTk/하이큐.webp', comment: '재능은 꽃피우는 것 센스는 갈고 닦는 것' },
     { title: 'Re:제로', img: 'https://i.postimg.cc/TYBbZFNN/리제로.webp', comment: '렘이 누구야?' },
   ];
@@ -51,6 +52,7 @@ export default function FavoritesPage() {
     { title: '이루마 미우', img: 'https://i.postimg.cc/Dzkd6xYp/1d.webp', comment: '토끼모양사과' },
     { title: '체인소', img: 'https://i.postimg.cc/J7gB7zVZ/ㅊ.webp', comment: 'so sexy' },
     { title: '카게야마 토비오', img: 'https://i.postimg.cc/FH4GTZKV/nam1-(1).webp', comment: '결혼하자' },
+    { title: '코토부키 츠무기', img: 'https://i.postimg.cc/tJBNcvjz/cheu1.webp', comment: '단무지눈썹' },
     { title: '파워', img: 'https://i.imghippo.com/files/NM3933Ow.webp', comment: '와시노나와' },
     { title: 'L', img: 'https://i.postimg.cc/76gxf9F7/3.webp', comment: '저는 XL입니다' },
   ];
